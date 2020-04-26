@@ -70,5 +70,21 @@
   ```
   => `A C E D B H I G F`
 
+### Level-order traversal aka BFS
+- starts with a root node and visit the node itself first
+- Then traverse its neighbors
+- Traverse its second level neighbors, traverse its third level neighbors, so on and so forth
+- Example:
+  ```
+        F
+      /  \
+     B    G
+    / \   /
+   A  D  I
+     / \  \
+    C  E   H
+  ```
+  => `F B G A D I C E H`
+
 ## Notes
 - We can solve tree problems by either **iterative** or **recursive** methods
